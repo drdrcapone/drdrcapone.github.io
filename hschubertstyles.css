@@ -1,0 +1,254 @@
+a {
+    color: rgb(0, 80, 63);
+}
+
+.in-links {
+    margin: 16px 8px;
+    font-size: 1.2rem;
+}
+
+.last {
+    margin-bottom: 25px;
+}
+
+a:visited {
+    color: rgb(0, 119, 69);
+}
+
+a:hover {
+    color: rgb(116, 116, 255);
+}
+
+body {
+    background-image: url(FarmMeadowCrop.jpg);
+    background-size: 105.5vw auto;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(0, 80, 63);
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+
+h1 a {
+    color:rgb(0, 80, 63);
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Segoe UI';
+    color: rgb(0, 80, 63);
+    margin-left: 40px;
+
+}
+
+p {
+    padding: 2px 16px;
+    opacity: 100%;
+}
+
+.divider {
+    border-bottom: solid 6px rgb(65, 98, 114);
+    margin-bottom: 4px;
+    margin-left: 2vw;
+    width: calc(14vw + 20px + 76vw + 8px + 20px);
+    border-radius: 8px;
+}
+
+.header {
+    width: calc(14vw + 20px + 76vw + 4px + 20px);
+    text-align: justify;
+    border: solid 4px rgb(65, 98, 114);
+    background-color: rgb(181, 181, 255);
+    margin-bottom: 4px;
+    opacity: 90%;
+    border-radius: 8px;
+    margin-left: 2vw;
+    margin-top: 1vh;
+}
+.lower-content {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 80vh;
+    width: calc(14vw + 20px + 76vw + 10px + 20px);
+    margin-left: 2vw;
+}
+
+.right-content {
+    width: 76vw;
+    height: fit-content;
+    border: solid 4px rgb(65, 98, 114);
+    background-color: rgb(181, 181, 255);
+    opacity: 90%;
+    border-radius: 8px;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size: 25px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.left-links {
+    text-align: left;
+    float: left;
+    width: 14vw;
+    height: fit-content;
+    border: solid 4px rgb(65, 98, 114);
+    background-color: rgb(181, 181, 255);
+    opacity: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.opener {
+    padding: 0 16px;
+    margin-bottom: -10px;
+    width: fit-content;
+    margin-left: 270px;
+    text-align: left;
+    opacity: 100%;
+    position: relative;
+    border-bottom: 4px groove rgb(26, 41, 24);
+}
+
+.basedivider {
+    border-bottom: solid 2px rgb(65, 114, 65);
+    margin: 1px 8px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.portrait {
+    width: 20vw;
+    max-width: 225px;
+    height: auto;
+    float: left;
+    margin-top: -36px;
+    margin-left: 12px;
+    margin-right: 12px;
+    justify-content: flex-start;
+    opacity: 100%;
+    border: 2px solid rgb(65, 98, 114);
+}
+
+.portrait2 {
+    width: 18vw;
+    max-width: 255px;
+    height: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    float: right;
+    justify-content: flex-start;
+    opacity: 100%;
+    border: 2px solid rgb(65, 98, 114);
+}
+
+.practicehead {
+    text-align: center;
+    margin-left: -20px;
+}
+
+.rightlist {
+    float: none;
+}
+
+.leftlist {
+    float: left;
+}
+
+.rightleftlist {
+    display: flex;
+    margin: 5vw;
+    margin-top: 1vw;
+}
+
+.appheader {
+    margin-left: 5vw;
+    border-bottom: 2px groove rgb(26, 41, 24);
+    width: fit-content;
+}
+
+.appbody {
+    margin-left: 4vw;
+}
+
+.contactheader {
+    margin-left: 8vw;
+}
+
+#welcomevideo {
+    float: right;
+    margin: 5vw;
+    position: relative;
+}
+
+#appform {
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px;
+}
+
+#radios {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#appbutton {
+    font-weight:600;
+    border: 1px solid rgb(65, 98, 114);
+    background: rgb(183, 248, 221);
+    padding: 4px;
+}
+
+#contactform {
+    text-align: center;
+}
+
+#contactbox {
+    width: 500px;
+    height: 60px;
+    margin: 8px;
+    margin-top: 20px;
+}
+
+#contactbutton {
+    margin-left: -0.5vw;
+    margin-top: -10.5vw;
+}
+
+#firstname {
+    margin: 4px;
+    margin-bottom: 20px;
+}
+
+#lastname {
+    margin: 4px;
+    margin-bottom: 20px;
+}
+
+#letter {
+    float: right;
+    max-width: 320px;
+    max-height: 480px;
+    margin-top: -10vh;
+}
+
+#intdivider {
+    border: solid 2px rgb(65, 98, 114);
+    height: 0px;
+    width: 76vw;
+    margin-left: -0.65vw;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    position: relative;
+}
+
+#contenttext {
+    position: relative;
+    text-align: justify;
+}
