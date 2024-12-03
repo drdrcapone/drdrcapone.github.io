@@ -25,20 +25,20 @@
 
             <img src="Letter.jpg" id="letter" />
 
-            <div id="contactform"><form action="">
-                <label for="firstname">First Name:</label> <input type="text" id="firstname" required><br>
-                <label for="lastname">Last Name:</label> <input type="text" id="lastname" required><br>
-                <label for="phone">Phone Number:</label> <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-789" required>
+            <div><form id="contactform" onsubmit="return postToGoogle();">
+                <label for="firstname">First Name:</label> <input type="text" id="firstname" name="entry.1333445437" required><br>
+                <label for="lastname">Last Name:</label> <input type="text" id="lastname" name="entry.747879854" required><br>
+                <label for="phone">Phone Number:</label> <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-789" name="entry.291035275" required>
                 <br>
                 <br>
                 <label for="pronouns">Pronouns:</label> <br>
-                    <input type="checkbox" id="pronouns">She/Her
-                    <input type="checkbox" id="pronouns">He/Him
-                    <input type="checkbox" id="pronouns">They/Them <br>
-                    <input type="checkbox" id="pronouns">Other (Describe ->)
-                    <input type="text" id="pronouns"><br><br>
+                    <input type="checkbox" id="pronouns" name="entry.1639062423">She/Her
+                    <input type="checkbox" id="pronouns" name="entry.1639062423">He/Him
+                    <input type="checkbox" id="pronouns" name="entry.1639062423">They/Them <br>
+                    <input type="checkbox" id="pronouns" name="entry.1639062423">Other (Describe ->)
+                    <input type="text" id="descpronouns"  name="entry.462116774"><br><br>
 
-                <label for="contactbox">Message:</label><br> <textarea id="contactbox" placeholder="Tell me about your situation and any information about how to contact you." required></textarea><br>
+                <label for="contactbox">Message:</label><br> <textarea id="contactbox" placeholder="Tell me about your situation and any information about how to contact you." name="entry.1903227757" required></textarea><br>
                 <button type="submit" id="contactbutton">Submit</button>
             </form></div>
 
@@ -46,5 +46,40 @@
 
         </div>
         </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    function postToGoogle() {
+        var field1 = $("#firstname").val();
+        var field2 = $("#lastname").val();
+        var field3 = $("#phone").val();
+        var field4 = $("#pronouns").val();
+        var field5 = $("#descpronouns").val();
+        var field6 = $("#contactbox").val();
+
+      $.ajax({
+        url: "{https://docs.google.com/forms/u/0/d/e/1FAIpQLSdd1NrQphBMClKcRhUrnd6ZbJ6K9V8nWzIzYx4WNJkmaaXY8w/formResponse?pli=1}",
+          
+        //add your google form generated numbers below which are also the 'names' of your inputs     
+        data: {
+            "entry.1333445437": field1,
+            "entry.747879854": field2,
+            "entry.291035275": field3,
+            "entry.1639062423": field4,
+            "entry.1639062423": field5,
+            "entry.1639062423": field6
+        },
+        type: "POST",
+        dataType: "xml",
+        success: function (d) {
+          $('#contactform').trigger('reset');
+        },
+        error: function (x, y, z) {
+          $('#contactform').trigger('reset');
+        }
+      });
+      return false;
+    }
+  </script>
     </body>
 </html>
