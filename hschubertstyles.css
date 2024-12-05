@@ -22,6 +22,7 @@ a:hover {
 @media only screen and (max-width: 768px) {
 body {
     background-color: lightblue;
+    background-image: "";
   }
 
 p {
@@ -31,19 +32,59 @@ p {
 }
 
 .in-links {
-    margin: 2px 2px;
+    margin: 4px 2px;
     font-size: 0.8rem;
+}
+
+.right-content {
+    width: 72vw;
+    height: fit-content;
+    border: solid 4px rgb(65, 98, 114);
+    background-color: rgb(181, 181, 255);
+    opacity: 90%;
+    border-radius: 8px;
+    padding: 2px;
+    padding-bottom: 8px;
+    margin-right: 2px;
+    margin-left: 2px;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .opener {
     padding: 0 4px;
     margin-bottom: -10px;
     width: fit-content;
-    margin-left: -20px;
+    margin-left: 6px;
     text-align: left;
     opacity: 100%;
     position: absolute;
     border-bottom: 4px groove rgb(26, 41, 24);
+    font-size: 1.0rem;
+}
+
+.portrait {
+    width: 20vw;
+    max-width: 225px;
+    height: auto;
+    float: left;
+    margin-top: -88px;
+    margin-left: 6px;
+    margin-right: 6px;
+    justify-content: flex-start;
+    opacity: 100%;
+    border: 1px solid rgb(65, 98, 114);
+}
+
+.portrait2 {
+    width: 18vw;
+    max-width: 255px;
+    height: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    float: right;
+    justify-content: flex-start;
+    opacity: 100%;
+    border: 1px solid rgb(65, 98, 114);
 }
 
 }
