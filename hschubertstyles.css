@@ -19,6 +19,24 @@ a:hover {
     color: rgb(116, 116, 255);
 }
 
+@media only screen and (max-width: 600px) {
+body {
+    background-color: lightblue;
+  }
+
+.opener {
+    padding: 0 4px;
+    margin-bottom: -10px;
+    width: fit-content;
+    margin-left: 100px;
+    text-align: left;
+    opacity: 100%;
+    position: relative;
+    border-bottom: 4px groove rgb(26, 41, 24);
+}
+
+}
+
 body {
     background-image: url(FarmMeadowCrop.jpg);
     background-size: 105.5vw auto;
