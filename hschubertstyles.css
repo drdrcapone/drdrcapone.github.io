@@ -87,6 +87,13 @@ p {
     border: 1px solid rgb(65, 98, 114);
 }
 
+#welcomevideo {
+    float: right;
+    margin: 1vw;
+    position: relative;
+    max-width: 70vw;
+}
+
 }
 
 body {
