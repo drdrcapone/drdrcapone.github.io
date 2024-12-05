@@ -53,12 +53,12 @@ p {
 .opener {
     padding: 0 4px;
     margin-bottom: -10px;
-    max-width: 70vw;
+    max-width: 10vw;
     margin-left: -270px;
     text-align: left;
     opacity: 100%;
     position: relative;
-    justify-content: flex-start;
+    float: left;
     border-bottom: 4px groove rgb(26, 41, 24);
     font-size: 1.0rem;
 }
@@ -89,7 +89,6 @@ p {
 }
 
 #welcomevideo {
-	height: fit-content;
 	padding-top: 25px;
 	padding-bottom: 56.2%;
 	position: relative;
