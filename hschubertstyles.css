@@ -85,7 +85,7 @@ iframe {
 	display: none;
 }
 
-#mobileopener {
+.mobileopener {
 	position: relative;
 	left: 0;
 }
@@ -201,7 +201,7 @@ p {
     max-width: 225px;
     height: auto;
     float: left;
-    margin-top: -36px;
+    margin-top: -12px;
     margin-left: 12px;
     margin-right: 12px;
     justify-content: flex-start;
