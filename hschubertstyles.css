@@ -56,6 +56,7 @@ p {
     height: auto;
     float: left;
     margin: 6px;
+	margin-top: 12px;
     justify-content: flex-start;
     opacity: 100%;
     border: 1px solid rgb(65, 98, 114);
@@ -178,6 +179,7 @@ p {
 
 .opener {
     width: fit-content;
+	height: fit-content;
     margin-left: 270px;
     text-align: left;
     opacity: 100%;
@@ -250,8 +252,12 @@ p {
     margin-left: 8vw;
 }
 
+@media only screen and (min-width: 769px) {
+
 .mobileopener {
-	display: none!important;
+	display: none;
+}
+
 }
 
 #welcomevideo {
