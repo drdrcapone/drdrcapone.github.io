@@ -55,9 +55,7 @@ p {
     max-width: 225px;
     height: auto;
     float: left;
-    margin-top: -288px;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin: 6px;
     justify-content: flex-start;
     opacity: 100%;
     border: 1px solid rgb(65, 98, 114);
@@ -179,7 +177,7 @@ p {
 }
 
 .opener {
-    padding: 0 16px;
+    padding: 0;
     margin-bottom: -30px;
     width: fit-content;
     margin-left: 270px;
@@ -255,7 +253,7 @@ p {
 }
 
 .mobileopener {
-	display: none;
+	display: none!important;
 }
 
 #welcomevideo {
