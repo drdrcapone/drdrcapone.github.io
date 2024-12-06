@@ -51,13 +51,7 @@ p {
 }
 
 .opener {
-	padding: 0 4px;
-	margin-bottom: -10px;
-	width: fit-content;
-	left: 0;
-	text-align: left;
 	opacity: 100%;
-	position: absolute;
 	float: left;
 	border-bottom: 4px groove rgb(26, 41, 24);
 	font-size: 1.0rem;
