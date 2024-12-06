@@ -118,6 +118,7 @@ h2 {
 p {
     padding: 2px 16px;
     opacity: 100%;
+	position: relative;
 }
 
 .divider {
@@ -153,6 +154,7 @@ p {
     border: solid 4px rgb(65, 98, 114);
     background-color: rgb(181, 181, 255);
     opacity: 90%;
+	flex-flow: row nowrap;
     border-radius: 8px;
     padding: 10px;
     padding-bottom: 25px;
@@ -264,7 +266,7 @@ p {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	max-width: 560px;
+	max-width: 800px;
 	position: absolute;
 }
 
