@@ -81,6 +81,11 @@ iframe {
   aspect-ratio: 16 / 9;
 }
 
+.opener {
+	opacity: 0;
+	overflow: hidden;
+}
+
 #mobileopener {
 	position: relative;
 	left: 0;
@@ -315,6 +320,10 @@ p {
     margin-bottom: 8px;
     border-radius: 8px;
     position: relative;
+}
+
+#mobileopener {
+	opacity: 0;
 }
 
 #contenttext {
