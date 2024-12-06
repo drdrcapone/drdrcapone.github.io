@@ -82,8 +82,7 @@ iframe {
 }
 
 .opener {
-	opacity: 0%;
-	overflow: hidden;
+	display: none;
 }
 
 #mobileopener {
@@ -323,7 +322,7 @@ p {
 }
 
 #mobileopener {
-	opacity: 0;
+	display: none;
 }
 
 #contenttext {
