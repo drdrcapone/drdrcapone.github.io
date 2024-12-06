@@ -56,7 +56,9 @@ h3 {
 
 .opener {
 	opacity: 100%;
-	float: left;
+	left: 0;
+	width: fit-content;
+	position: absolute;
 	border-bottom: 4px groove rgb(26, 41, 24);
 	font-size: 1.0rem;
 }
