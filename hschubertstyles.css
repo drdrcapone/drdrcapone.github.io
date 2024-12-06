@@ -81,7 +81,7 @@ iframe {
 }
 
 .opener {
-	display: none;
+	display: none!important;
 }
 
 .mobileopener {
@@ -184,12 +184,15 @@ p {
     width: fit-content;
 	height: fit-content;
 	display: inline-block;
-    margin-left: 270px;
+    margin-left: 12px;
     text-align: left;
     opacity: 100%;
     position: relative;
-    border-bottom: 4px groove rgb(26, 41, 24);
-	padding-bottom: -15px;
+	left: 0;
+}
+
+.opener h3 {
+	border-bottom: 4px groove rgb(26, 41, 24);
 }
 
 .basedivider {
