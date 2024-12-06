@@ -92,7 +92,7 @@ p {
 
 body {
     background-image: url(FarmMeadowCrop.jpg);
-    background-size: 105.5vw 105.5vh;
+    background-size: 105.5vw auto;
 }
 
 h1 {
