@@ -87,6 +87,8 @@ iframe {
 .mobileopener {
 	position: relative;
 	left: 0;
+	font-size: 1.1rem;
+	font-color: rgb(65, 98, 114);
 }
 	
 }
@@ -139,6 +141,7 @@ p {
     margin-left: 2vw;
     margin-top: 1vh;
 }
+
 .lower-content {
     display: flex;
     flex-flow: row nowrap;
@@ -180,6 +183,7 @@ p {
 .opener {
     width: fit-content;
 	height: fit-content;
+	display: inline-block;
     margin-left: 270px;
     text-align: left;
     opacity: 100%;
@@ -206,6 +210,7 @@ p {
     justify-content: flex-start;
     opacity: 100%;
     border: 2px solid rgb(65, 98, 114);
+	display: inline-block;
 }
 
 .portrait2 {
