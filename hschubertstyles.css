@@ -254,6 +254,10 @@ p {
     margin-left: 8vw;
 }
 
+.mobileopener {
+	display: none;
+}
+
 #welcomevideo {
     float: right;
     margin: 5vw;
@@ -319,10 +323,6 @@ p {
     margin-bottom: 8px;
     border-radius: 8px;
     position: relative;
-}
-
-#mobileopener {
-	display: none;
 }
 
 #contenttext {
