@@ -82,7 +82,7 @@ iframe {
 }
 
 #mobileopener {
-	position: relative;
+	position: absolute;
 	float: left;
 }
 	
