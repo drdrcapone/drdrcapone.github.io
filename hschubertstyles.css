@@ -50,6 +50,10 @@ p {
     font-family: 'Helvetica', sans-serif;
 }
 
+h3 {
+	left: 0;
+}
+
 .opener {
 	opacity: 100%;
 	float: left;
@@ -62,7 +66,7 @@ p {
     max-width: 225px;
     height: auto;
     float: left;
-    margin-top: -188px;
+    margin-top: -288px;
     margin-left: 6px;
     margin-right: 6px;
     justify-content: flex-start;
