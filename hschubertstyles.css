@@ -50,14 +50,6 @@ p {
     font-family: 'Helvetica', sans-serif;
 }
 
-.opener {
-	opacity: 100%;
-	left: 0;
-	width: fit-content;
-	border-bottom: 4px groove rgb(26, 41, 24);
-	font-size: 1.0rem;
-}
-
 .portrait {
     width: 20vw;
     max-width: 225px;
@@ -87,6 +79,11 @@ iframe {
   height: auto;
   width: 100%;
   aspect-ratio: 16 / 9;
+}
+
+#mobileopener {
+	position: relative;
+	float: left;
 }
 	
 }
