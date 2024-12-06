@@ -21,7 +21,7 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
 body {
-	background-image: none;
+	background-image: none!important;
 	background-color: lightblue;
   }
 
@@ -51,15 +51,16 @@ p {
 }
 
 .opener {
-    padding: 0 4px;
-    margin-bottom: -10px;
-    width: fit-content;
-    text-align: left;
-    opacity: 100%;
-    position: absolute;
-    float: left;
-    border-bottom: 4px groove rgb(26, 41, 24);
-    font-size: 1.0rem;
+	padding: 0 4px;
+	margin-bottom: -10px;
+	width: fit-content;
+	left: 0;
+	text-align: left;
+	opacity: 100%;
+	position: absolute;
+	float: left;
+	border-bottom: 4px groove rgb(26, 41, 24);
+	font-size: 1.0rem;
 }
 
 .portrait {
@@ -91,7 +92,7 @@ p {
 
 body {
     background-image: url(FarmMeadowCrop.jpg);
-    background-size: auto 105.5vh;
+    background-size: 105.5vw 105.5vh;
 }
 
 h1 {
