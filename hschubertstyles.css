@@ -160,6 +160,7 @@ p {
     margin-left: 4px;
     font-size: 25px;
     font-family: 'Helvetica', sans-serif;
+	position: relative;
 }
 
 .left-links {
