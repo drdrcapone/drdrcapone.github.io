@@ -39,6 +39,7 @@ p {
 .right-content {
     width: 72vw;
     height: fit-content;
+	min-height: 80vh;
     border: solid 4px rgb(65, 98, 114);
     background-color: rgb(181, 181, 255);
     opacity: 90%;
