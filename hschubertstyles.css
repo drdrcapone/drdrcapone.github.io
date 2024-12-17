@@ -99,11 +99,6 @@ iframe {
 #letter {
 	display: none;
 }
-
-#tdbadge {
-	max-width: 4vw;
-	max-height: auto;
-}
 	
 }
 
@@ -365,4 +360,10 @@ p {
 	margin-right: auto;
 	display: block;
 	justify-content: center;
+}
+
+#tdbadge {
+	display: block;
+	justify-content: center;
+	text-align: center;
 }
