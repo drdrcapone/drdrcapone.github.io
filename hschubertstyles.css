@@ -76,7 +76,7 @@ p {
 }
 
 iframe #welcomevideo {
-  width: 100%;
+  width: auto;
   aspect-ratio: 16 / 9;
 	margin: 0 auto;
 }
