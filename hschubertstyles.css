@@ -372,6 +372,7 @@ p {
 }
 
 iframe #formframe {
+	display: block;
 	margin: auto;
 	text-align: center;
 	justify-content: center;
