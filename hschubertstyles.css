@@ -99,6 +99,11 @@ iframe {
 #letter {
 	display: none;
 }
+
+#tdbadge {
+	max-width: 4vw;
+	max-height: auto;
+}
 	
 }
 
