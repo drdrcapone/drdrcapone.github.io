@@ -76,7 +76,6 @@ p {
 }
 
 iframe {
-  height: auto;
   width: 100%;
   aspect-ratio: 16 / 9;
 	margin: 0 auto;
