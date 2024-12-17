@@ -75,8 +75,9 @@ p {
     border: 1px solid rgb(65, 98, 114);
 }
 
-iframe #welcomevideo {
+#welcomevideo {
   width: auto;
+	height: auto;
   aspect-ratio: 16 / 9;
 }
 
