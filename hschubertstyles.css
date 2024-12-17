@@ -340,6 +340,7 @@ p {
 
 #letter {
     float: right;
+	position: absolute;
     max-width: 320px;
     max-height: 480px;
 }
@@ -357,4 +358,8 @@ p {
 #contenttext {
     position: relative;
     text-align: justify;
+}
+
+#badge {
+	margin: auto;
 }
