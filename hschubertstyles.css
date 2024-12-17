@@ -76,9 +76,20 @@ p {
 }
 
 #welcomevideo {
-  width: auto;
+	height: 0px;
+	padding-top: 25px;
+	padding-bottom: 56.2%;
+	position: relative;
+	width: auto;
 	height: auto;
-  aspect-ratio: 16 / 9;
+	max-width: 420px;
+	aspect-ratio: 16 / 9;
+}
+
+#welcomevideo iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 iframe #formframe {
