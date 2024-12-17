@@ -84,6 +84,7 @@ iframe #welcomevideo {
 iframe #formframe {
 	height: auto;
 	width: auto;
+	max-width: 70vw;
 	text-align: center;
 	justify-content: center;
 }
