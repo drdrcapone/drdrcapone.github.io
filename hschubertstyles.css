@@ -81,12 +81,10 @@ p {
 	aspect-ratio: 16 / 9;
 }
 
-iframe #formframe {
+#formframe iframe {
 	height: auto;
-	width: auto;
-	max-width: 70vw;
-	text-align: center;
-	justify-content: center;
+	width: 100%;
+	aspect-ratio: 16/9;
 }
 
 .opener {
