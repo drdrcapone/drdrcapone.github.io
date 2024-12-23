@@ -84,6 +84,7 @@ p {
 #formframe iframe {
 	height: auto;
 	width: 100%;
+	max-width: 40vw;
 	aspect-ratio: 8/16;
 }
 
