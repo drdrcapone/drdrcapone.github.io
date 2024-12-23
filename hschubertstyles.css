@@ -85,6 +85,7 @@ p {
 	height: 100%;
 	width: 100%;
 	max-width: 65vw;
+	min-height: 100vh;
 }
 
 .opener {
