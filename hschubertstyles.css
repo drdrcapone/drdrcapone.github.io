@@ -371,7 +371,7 @@ p {
 	text-align: center;
 }
 
-iframe #formframe {
+#formframe {
 	display: block;
 	margin: auto;
 	text-align: center;
