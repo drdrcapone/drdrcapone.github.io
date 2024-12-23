@@ -268,7 +268,9 @@ p {
 }
 
 .contactheader {
-    margin-left: 8vw;
+    display: block;
+	justify-content: center;
+	text-align: center;
 }
 
 .card {
