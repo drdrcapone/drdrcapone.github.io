@@ -138,12 +138,12 @@ p {
     border-bottom: solid 6px rgb(65, 98, 114);
     margin-bottom: 4px;
     margin-left: 2vw;
-    width: 90vw;
+    width: calc(14vw + 20px + 76vw + 8px + 20px);
     border-radius: 8px;
 }
 
 .header {
-    width: 90vw;
+    width: calc(14vw + 20px + 76vw + 4px + 20px);
     text-align: justify;
     border: solid 4px rgb(65, 98, 114);
     background-color: rgb(181, 181, 255);
@@ -158,12 +158,11 @@ p {
     display: flex;
     flex-flow: row nowrap;
     height: 80vh;
-    width: 90vw;
+    width: calc(14vw + 20px + 76vw + 10px + 20px);
     margin-left: 2vw;
 }
 
 .right-content {
-	float: right;
     width: 76vw;
     height: fit-content;
     border: solid 4px rgb(65, 98, 114);
