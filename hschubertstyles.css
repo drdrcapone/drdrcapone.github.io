@@ -163,6 +163,7 @@ p {
 }
 
 .right-content {
+	float: right;
     width: 76vw;
     height: fit-content;
     border: solid 4px rgb(65, 98, 114);
