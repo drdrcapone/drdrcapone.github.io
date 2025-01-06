@@ -143,7 +143,7 @@ p {
 }
 
 .header {
-    width: 100vw;
+    width: 98vw;
     text-align: justify;
     border: solid 4px rgb(65, 98, 114);
     background-color: rgb(181, 181, 255);
@@ -158,7 +158,7 @@ p {
     display: flex;
     flex-flow: row nowrap;
     height: 80vh;
-    width: 100vw;
+    width: 98vw;
     margin-left: 2vw;
 }
 
