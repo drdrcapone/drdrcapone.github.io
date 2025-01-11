@@ -137,6 +137,7 @@ p {
 .divider {
     border-bottom: solid 6px rgb(65, 98, 114);
     margin-bottom: 1vh;
+	margin-top: 1vh;
     margin-left: 2vw;
     width: calc(14vw + 20px + 76vw + 8px + 20px);
     border-radius: 8px;
