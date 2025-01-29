@@ -145,14 +145,30 @@ p {
 
 .header {
     width: calc(14vw + 20px + 76vw + 4px + 20px);
-    text-align: justify;
+    display: grid;
     border: solid 4px rgb(65, 98, 114);
     background-color: rgb(181, 181, 255);
-    margin-bottom: 4px;
+    margin-bottom: 0.5vh;
     opacity: 90%;
     border-radius: 8px;
     margin-left: 2vw;
     margin-top: 1vh;
+}
+
+.logo {
+    width: auto;
+    height: 15vh;
+    position: absolute;
+    margin-left: 0.2vw;
+    margin-top: 0.2vh;
+}
+
+.site-title {
+    margin-left: 6.5vw;
+}
+
+.site-subtitle {
+    margin-left: 6.5vw;
 }
 
 .lower-content {
