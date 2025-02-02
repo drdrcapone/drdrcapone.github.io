@@ -44,6 +44,14 @@ p {
     font-size: 0.8rem;
 }
 
+.site-title {
+	margin-left: 2vw;
+}
+
+.site-subtitle {
+	margin-left: 2.2vw;
+}
+
 .right-content {
     width: 72vw;
     height: fit-content;
