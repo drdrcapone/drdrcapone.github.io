@@ -161,7 +161,7 @@ p {
 
 .header {
     width: calc(14vw + 20px + 76vw + 4px + 20px);
-	height: calc(1vh + 0.5vh + 2rem + 1.875rem + 1vh);
+	height: calc(1vh + 0.5vh + 2rem + 1.875rem + 2vh);
     display: grid;
     border: solid 4px rgb(65, 98, 114);
     background-color: rgb(181, 181, 255);
