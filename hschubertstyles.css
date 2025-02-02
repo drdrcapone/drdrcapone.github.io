@@ -32,11 +32,11 @@ p {
 }
 
 .header {
-	margin-left: 1vw;
+	margin-left: -1vw;
 }
 
 .lower-content {
-	margin-left: 1vw;
+	margin-left: -1vw;
 }
 
 .in-links {
