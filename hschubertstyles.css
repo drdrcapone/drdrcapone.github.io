@@ -31,6 +31,14 @@ p {
     font-size: 0.8rem;
 }
 
+.header {
+	margin-left: 0.33vw;
+}
+
+.lower-content {
+	margin-left: 0.33vw;
+}
+
 .in-links {
     margin: 4px 2px;
     font-size: 0.8rem;
