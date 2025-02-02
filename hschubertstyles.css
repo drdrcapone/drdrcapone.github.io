@@ -102,6 +102,11 @@ p {
 .rightleftlist {
 	font-size: 1.1rem;
 }
+
+.logo {
+	width: auto;
+	height: 8vh;
+}
 	
 }
 
