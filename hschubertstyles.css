@@ -110,14 +110,7 @@ p {
 .rightleftlist {
 	font-size: 1.1rem;
 }
-
-.logo {
-	width: auto;
-	height: 8vh;
-}
 	
-}
-
 body {
     background-image: url(FarmMeadowCrop.jpg);
     background-size: 105.5vw auto;
@@ -170,7 +163,7 @@ p {
 
 .logo {
     width: auto;
-    height: 15vh;
+    height: 100%;
     position: absolute;
     margin-left: 0.2vw;
     margin-top: 0.2vh;
