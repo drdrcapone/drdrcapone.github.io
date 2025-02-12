@@ -70,6 +70,10 @@ p {
     margin-top: 1vh;
 }
 
+.logotitle {
+	text-align: start;
+}
+
 .logo {
     width: auto;
     height: calc(1vh + 0.5vh + 2rem + 1.875rem);
