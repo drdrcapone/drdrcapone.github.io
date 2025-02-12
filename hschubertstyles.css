@@ -82,14 +82,6 @@ p {
     margin-top: 0.2vh;
 }
 
-.site-title {
-	position: relative;
-}
-
-.site-subtitle {
-	position: relative;
-}
-
 .lower-content {
     display: flex;
     flex-flow: row nowrap;
