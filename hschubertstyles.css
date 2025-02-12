@@ -18,108 +18,6 @@ a:visited {
 a:hover {
     color: rgb(116, 116, 255);
 }
-
-@media only screen and (max-width: 768px) {
-body {
-	background-image: none!important;
-	background-color: lightblue;
-  }
-
-p {
-    padding: 2px 2px;
-    opacity: 100%;
-    font-size: 0.8rem;
-}
-
-.header {
-	margin-left: -1vw;
-}
-
-.lower-content {
-	margin-left: -1vw;
-}
-
-.in-links {
-    margin: 4px 2px;
-    font-size: 0.8rem;
-}
-
-.site-title {
-	margin-left: 4vw;
-}
-
-.site-subtitle {
-	margin-left: 4.2vw;
-}
-
-.right-content {
-    width: 72vw;
-    height: fit-content;
-	min-height: 80vh;
-    border: solid 4px rgb(65, 98, 114);
-    background-color: rgb(181, 181, 255);
-    opacity: 90%;
-    border-radius: 8px;
-    padding: 2px;
-    padding-bottom: 8px;
-    margin-right: 2px;
-    margin-left: 2px;
-    font-family: 'Helvetica', sans-serif;
-}
-
-.portrait {
-    width: 20vw;
-    max-width: 225px;
-    height: auto;
-    float: left;
-    margin: 6px;
-	margin-top: 12px;
-    justify-content: flex-start;
-    opacity: 100%;
-    border: 1px solid rgb(65, 98, 114);
-}
-
-.portrait2 {
-    width: 18vw;
-    max-width: 255px;
-    height: auto;
-    margin-left: 12px;
-    margin-right: 12px;
-    float: right;
-    justify-content: flex-start;
-    opacity: 100%;
-    border: 1px solid rgb(65, 98, 114);
-}
-
-#welcomevideo iframe {
-	height: auto;
-	width: 100%;
-	aspect-ratio: 16 / 9;
-}
-
-#formframe {
-	height: 100%;
-	width: 100%;
-	max-width: 65vw;
-	min-height: 100vh;
-}
-
-.opener {
-	display: none!important;
-}
-
-.mobileopener {
-	position: relative;
-	left: 0;
-	font-size: 1.1rem;
-	font-color: rgb(65, 98, 114);
-}
-
-.rightleftlist {
-	font-size: 1.1rem;
-}
-
-}
 	
 body {
     background-image: url(FarmMeadowCrop.jpg);
@@ -314,14 +212,6 @@ p {
   margin-top: 20px;
 }
 
-@media only screen and (min-width: 769px) {
-
-.mobileopener {
-	display: none;
-}
-
-}
-
 #welcomevideo {
     float: right;
     margin: 5vw;
@@ -412,4 +302,114 @@ p {
 	margin: auto;
 	text-align: center;
 	justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+body {
+	background-image: none!important;
+	background-color: lightblue;
+  }
+
+p {
+    padding: 2px 2px;
+    opacity: 100%;
+    font-size: 0.8rem;
+}
+
+.header {
+	margin-left: -1vw;
+}
+
+.lower-content {
+	margin-left: -1vw;
+}
+
+.in-links {
+    margin: 4px 2px;
+    font-size: 0.8rem;
+}
+
+.site-title {
+	margin-left: 4vw;
+}
+
+.site-subtitle {
+	margin-left: 4.2vw;
+}
+
+.right-content {
+    width: 72vw;
+    height: fit-content;
+	min-height: 80vh;
+    border: solid 4px rgb(65, 98, 114);
+    background-color: rgb(181, 181, 255);
+    opacity: 90%;
+    border-radius: 8px;
+    padding: 2px;
+    padding-bottom: 8px;
+    margin-right: 2px;
+    margin-left: 2px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.portrait {
+    width: 20vw;
+    max-width: 225px;
+    height: auto;
+    float: left;
+    margin: 6px;
+	margin-top: 12px;
+    justify-content: flex-start;
+    opacity: 100%;
+    border: 1px solid rgb(65, 98, 114);
+}
+
+.portrait2 {
+    width: 18vw;
+    max-width: 255px;
+    height: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    float: right;
+    justify-content: flex-start;
+    opacity: 100%;
+    border: 1px solid rgb(65, 98, 114);
+}
+
+#welcomevideo iframe {
+	height: auto;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+}
+
+#formframe {
+	height: 100%;
+	width: 100%;
+	max-width: 65vw;
+	min-height: 100vh;
+}
+
+.opener {
+	display: none!important;
+}
+
+.mobileopener {
+	position: relative;
+	left: 0;
+	font-size: 1.1rem;
+	font-color: rgb(65, 98, 114);
+}
+
+.rightleftlist {
+	font-size: 1.1rem;
+}
+
+}
+
+@media only screen and (min-width: 769px) {
+
+.mobileopener {
+	display: none;
+}
+
 }
