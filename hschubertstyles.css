@@ -60,7 +60,7 @@ p {
 .header {
     width: calc(14vw + 20px + 76vw + 4px + 20px);
 	height: calc(1vh + 0.5vh + 2rem + 1.875rem + 2vh);
-    display: grid;
+    display: grid | inline-grid;
     border: solid 4px rgb(65, 98, 114);
     background-color: rgb(181, 181, 255);
     margin-bottom: 0.5vh;
