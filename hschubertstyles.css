@@ -76,9 +76,8 @@ p {
 }
 
 .logo {
-    width: calc(1vh);
+    width: auto;
     height: calc(1vh + 0.5vh + 2rem + 1.875rem);
-    position: relative;
     margin-left: 0.2vw;
     margin-top: 0.2vh;
 }
