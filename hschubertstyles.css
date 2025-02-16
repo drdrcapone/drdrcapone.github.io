@@ -64,7 +64,7 @@ p {
     border-radius: 8px;
     margin-left: 2vw;
     margin-top: 1vh;
-	display: block;
+	display: grid;
 }
 
 .logo {
