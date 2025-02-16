@@ -81,10 +81,12 @@ p {
 
 .site-title {
 	width: fit-content;
+	max-width: 75vw;
 }
 
 .site-subtitle {
 	width: fit-content;
+	max-width: 50vw;
 }
 
 .lower-content {
