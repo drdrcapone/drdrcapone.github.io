@@ -79,6 +79,14 @@ p {
 	display: inline; 
 }
 
+.site-title {
+	width: fit-content;
+}
+
+.site-subtitle {
+	width: fit-content;
+}
+
 .lower-content {
     display: flex;
     flex-flow: row nowrap;
