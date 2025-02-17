@@ -82,11 +82,12 @@ p {
 
 .site-title {
     margin-left: 5.5vw;
+	margin-top: -0.5vh;
 }
 
 .site-subtitle {
     margin-left: 5.5vw;
-	margin-top: -1.75vh;
+	margin-top: -2vh;
 }
 
 .lower-content {
