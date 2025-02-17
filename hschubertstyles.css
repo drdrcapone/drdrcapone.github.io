@@ -77,7 +77,7 @@ p {
 }
 
 .title {
-	margin-top: -1vh;
+	margin-top: -0.5vh;
 }
 
 .site-title {
@@ -86,7 +86,7 @@ p {
 
 .site-subtitle {
     margin-left: 5.5vw;
-	margin-top: -1.25vh;
+	margin-top: -1.5vh;
 }
 
 .lower-content {
