@@ -76,14 +76,18 @@ p {
     margin-top: 0.2vh;
 }
 
+.title {
+	margin-top: -1vh;
+}
+
 .site-title {
     margin-left: 5.5vw;
-	margin-bottom: 1vh;
+	margin-top: -1vh;
 }
 
 .site-subtitle {
     margin-left: 5.5vw;
-	margin-bottom: 1.5vh;
+	margin-top: -1.5vh;
 }
 
 .lower-content {
