@@ -313,12 +313,10 @@ body {
 
 h1 {
 	font-size: 1.3rem;
-	margin-left: 2vw;
 }
 
 h2 {
 	font-size: 0.8rem;
-	margin-left: 3vw;
 }
 
 p {
@@ -341,10 +339,12 @@ p {
 }
 
 .site-title {
+	position: absolute;
 	margin-left: 4vw;
 }
 
 .site-subtitle {
+	position: absolute;
 	margin-left: 4.2vw;
 }
 
