@@ -340,12 +340,14 @@ p {
 
 .site-title {
 	position: absolute;
-	margin-left: 4vw;
+	margin-left: 10vw;
+	margin-bottom: 2vh;
 }
 
 .site-subtitle {
 	position: absolute;
-	margin-left: 4.2vw;
+	margin-left: 10vw;
+	margin-top: 2vh;
 }
 
 .right-content {
