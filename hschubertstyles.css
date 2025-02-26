@@ -311,6 +311,16 @@ body {
 	background-color: lightblue;
   }
 
+h1 {
+	font-size: 1.3rem;
+	margin-left: 0.2vw;
+}
+
+h2 {
+	font-size: 0.8rem;
+	margin-left: 0.3vw;
+}
+
 p {
     padding: 2px 2px;
     opacity: 100%;
